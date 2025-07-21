@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Post-project/", 
   plugins: [react()],
-  base: '/social-app/',
+ 
  
 });
